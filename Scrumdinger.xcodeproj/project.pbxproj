@@ -15,6 +15,7 @@
 		B5634C9A2B19B14800D4977B /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5634C992B19B14800D4977B /* ScrumTimer.swift */; };
 		B5634C9C2B19B47300D4977B /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5634C9B2B19B47300D4977B /* AVPlayer+Ding.swift */; };
 		B5634C9E2B19BBCF00D4977B /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5634C9D2B19BBCF00D4977B /* MeetingFooterView.swift */; };
+		B5634CA12B19C12200D4977B /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = B5634CA02B19C12200D4977B /* ding.wav */; };
 		B575D5852B167DAC00EFFED3 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575D5842B167DAC00EFFED3 /* ThemeView.swift */; };
 		B575D5872B167EBA00EFFED3 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575D5862B167EBA00EFFED3 /* ThemePicker.swift */; };
 		B5A0F5142AED335700956226 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A0F5132AED335700956226 /* ScrumdingerApp.swift */; };
@@ -56,6 +57,7 @@
 		B5634C992B19B14800D4977B /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		B5634C9B2B19B47300D4977B /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		B5634C9D2B19BBCF00D4977B /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		B5634CA02B19C12200D4977B /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		B575D5842B167DAC00EFFED3 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		B575D5862B167EBA00EFFED3 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		B5A0F5102AED335700956226 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +119,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		B5634C9F2B19C0BF00D4977B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5634CA02B19C12200D4977B /* ding.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B5A0F5072AED335700956226 = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +150,7 @@
 		B5A0F5122AED335700956226 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				B5634C9F2B19C0BF00D4977B /* Resources */,
 				B5A0F5172AED335900956226 /* Assets.xcassets */,
 				B5A0F5732AEECE3800956226 /* Models */,
 				B5A0F5192AED335900956226 /* Preview Content */,
@@ -289,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5634CA12B19C12200D4977B /* ding.wav in Resources */,
 				B5A0F51B2AED335900956226 /* Preview Assets.xcassets in Resources */,
 				B5A0F5182AED335900956226 /* Assets.xcassets in Resources */,
 			);
